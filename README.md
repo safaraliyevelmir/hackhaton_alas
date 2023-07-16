@@ -31,14 +31,16 @@ The project requires the following software to be installed:
 
 ```bash
 git clone https://github.com/safaraliyevelmir/hackhaton_alas.git
+```
 
 2. Create Virtual Enviorement
 
 ```bash
 python3 -m venv .venv
-
+```
 
 3. Install packages
 
 ```bash
 pip install -r requirements.txt
+```
