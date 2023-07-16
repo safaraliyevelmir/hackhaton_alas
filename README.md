@@ -44,3 +44,12 @@ python3 -m venv .venv
 ```bash
 pip install -r requirements.txt
 ```
+
+4. Run Fast api
+
+```bash
+uvicorn main:app --reload
+```
+
+5. Open Html File
+
