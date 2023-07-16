@@ -35,7 +35,7 @@ form.addEventListener("submit", function (event) {
     .then((data) => {
       // Yanıt verisini işleyin
       console.log(data);
-      pred.innerHTML = data["prediction"];
+      alert("Prediction: " + data["prediction"]);
     })
     .catch((error) => {
       // Hataları işleyin
