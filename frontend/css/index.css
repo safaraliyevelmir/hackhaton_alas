@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: orange;
+}
+body header nav {
+  padding: 15px 0;
+  color: white;
+  background-color: rgb(25, 27, 65);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav .nav-logo-div .animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 2.2rem;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+body header nav .img-logo-div img {
+  width: 160px;
+}
+body header nav .nav-categori-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header nav .nav-categori-div ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  font-size: 1.1rem;
+}
+body header nav .nav-categori-div ul li {
+  transition: 600ms;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: 500ms ease;
+}
+body header nav .nav-categori-div ul li:hover {
+  background-color: orange;
+}
+body header nav .nav-categori-div ul li:focus-within {
+  outline: 3px dashed orange;
+  outline-offset: 10px;
+}
+body header nav .nav-categori-div ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+body main form {
+  color: rgb(24, 24, 75);
+  font-size: 1.2rem;
+}/*# sourceMappingURL=index.css.map */
