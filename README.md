@@ -13,6 +13,10 @@ This project is a web application that utilizes FastAPI to provide predictions f
 - Accuracy: 0.962
 
 
+## Find Number Nueral network
+
+- Tensorflow VGG16 model
+- Accuracy: 0.92
 
 ## Getting Started
 
